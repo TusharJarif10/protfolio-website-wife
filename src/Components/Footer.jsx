@@ -53,11 +53,11 @@ const Footer = () => {
     <div>
         <h6 className='font-medium text-cyan-300'>Clothes</h6>
         <ul>
-            {/* <li className='py-2 text-sm'>Saare</li>
+            <li className='py-2 text-sm'>Saare</li>
             <li className='py-2 text-sm'>Hata kata blouse</li>
             <li className='py-2 text-sm'>Tight jeans with heels</li>
             <li className='py-2 text-sm'>Selware Kamiz</li>
-            <li className='py-2 text-sm'>Men wears</li> */}
+            <li className='py-2 text-sm'>Men wears</li>
         </ul>
     </div>
     <div>
