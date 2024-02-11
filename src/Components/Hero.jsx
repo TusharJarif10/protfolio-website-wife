@@ -12,7 +12,7 @@ const Hero = () => {
     <>
     <div className='text-white'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-      <p className='text-[#00df9a] text-1xl font-bold p-2'>[when I watch the highlings we have, i feel that we live our life together] </p>
+      <p className='text-[#00df9a] text-1xl font-bold p-2'>[growing old is mandatory but growing up is optional] </p>
        <div className='flex justify-center items-center'>
        <h1 className='md:text-3xl sm:text-1xl text-1xl font-medium md:py-6'>I’m Navila, and I’m pretty sure I’m </h1>
         <ReactTyped 
