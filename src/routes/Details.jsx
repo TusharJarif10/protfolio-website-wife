@@ -15,7 +15,7 @@ const Details = () => {
   return (
     <>
     <Navbar />
-    <div className='w-screen h-[550px] bg-white'>
+    <div className='w-screen h-[550px]'>
       <h1 className='flex justify-center pt-[200px] text-4xl font-bold'>Details</h1>
     </div>
 {/* <div className='bg-center bg-contain bg-scroll ' style={{backgroundImage: `url(${image8})`}}>

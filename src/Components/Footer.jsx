@@ -10,14 +10,16 @@ import {
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className=' max-w-auto mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
       <div>
       <Link to={"/"}>
-      <h1 className=' italic w-full text-2xl font-bold text-[#00df9a] cursor-pointer hover:text-cyan-500'>NAVILA TANNA.</h1>
+      <h1 className=' italic w-full text-2xl font-bold text-[#00df9a] cursor-pointer hover:text-cyan-500 ml-[4rem]'>NAVILA TANNA.</h1>
       </Link>
 
-        <p className='py-4'>What changed in a year? Everything. Specially, the people you love.</p>
-        <div className='flex justify-between md:w-[20%] my-6'>
+        <p className='py-4 ml-[4rem]'>What changed in a year? Everything. Specially, the people you love.</p>
+
+        <div className='flex justify-between md:w-[20%] my-6 ml-[4rem]'>
+
           <a href="https://www.facebook.com/trishnarahman.nelemt.3">
           <FaFacebookSquare size={30} />
           </a>
@@ -31,7 +33,7 @@ const Footer = () => {
             <FaDribbbleSquare size={30} /> */}
         </div>
       </div>
-      <div className='lg:col-span-2 flex justify-between mt-6'>
+      <div className='lg:col-span-2 flex justify-between mt-1 mr-12'>
     <div>
         <h6 className='font-medium text-cyan-300'>Go to Places</h6>
         <ul>

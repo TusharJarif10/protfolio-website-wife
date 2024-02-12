@@ -11,21 +11,21 @@ import view from "../assets/view.jpg";
 
 const Lifestyle = () => {
 
-const ref = useRef(null);
-const { scrollYProgress } = useScroll({
-  target: ref,
-  offset: ["start start", "end start"],
-});
-const backgroundY = useTransform(scrollYProgress, [0,1], ["0%", "100%"]);
-const textY = useTransform(scrollYProgress, [0,1], ["0%", "200%"]);
+// const ref = useRef(null);
+// const { scrollYProgress } = useScroll({
+//   target: ref,
+//   offset: ["start start", "end start"],
+// });
+// const backgroundY = useTransform(scrollYProgress, [0,1], ["0%", "100%"]);
+// const textY = useTransform(scrollYProgress, [0,1], ["0%", "200%"]);
 
 
   return (
     <>
     <Navbar  />
 
- <div ref={ref}
-  className="w-full  overflow-hidden relative grid place-items-center h-[900px]">
+ {/* <div ref={ref}
+  className="w-full  overflow-hidden relative grid place-items-center h-[900px] ">
 
   <motion.h1
   style={{ y: textY }} 
@@ -52,7 +52,7 @@ style={{
 </div>
 
 
- </div>
+ </div> */}
  <Footer />
  </>
   )
